@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .li-styles {
+    @apply text-[#1BC8D3] mr-9 pb-2   border-[#1BC8D3] border-b-2;
+  }
+  .li-hover-stlyes {
+    @apply hover:text-[#1BC8D3] mr-9 pb-2    hover:border-[#1BC8D3] hover:border-b-2;
+  }
+}
